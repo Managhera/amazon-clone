@@ -13,9 +13,11 @@ body {
 nav {
     height: 60px;
     display: flex;
+    padding: 2px;
     align-items: center;
     background-color: #0f1111;
     color: white;
+    
 }
 
 .nav-left {
@@ -185,7 +187,8 @@ nav {
     align-items: center;
     background-color: #222f3d;
     color: white;
-    justify-content: start;
+    justify-content:space-evenly;
+    
 
 }
 
@@ -304,9 +307,10 @@ main {
 .items-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    flex-grow: initial;
+    gap: 1rem;
     background-color: #c9cbcf82;
-    padding:  2rem 2rem 2rem;
+    padding:  1rem 1rem 1rem;
 }
 
 .item-card {
@@ -319,11 +323,11 @@ main {
     background-color: white;
     padding: 1rem;
     cursor: pointer;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 .item-card:hover{
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .item-card img {
