@@ -364,6 +364,23 @@ main {
     color: white;
 }
 
+.footer-bussiness{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+    color: white;
+}
+
+.footer-bussiness ul{
+    margin-top: 2rem;
+    padding: 20px;
+}
+
+.footer-bussiness ul LI{
+    list-style: none;
+    padding: 3px;
+}
+
 .footer-links ul {
     margin-top: 3rem;
 }
